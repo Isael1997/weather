@@ -26,7 +26,6 @@ export default function FetchWeather() {
                 <h1>Weather App</h1>
             </div>
             <div className="container">
-            
                 <input
                     className="search"
                     placeholder="search by country or city "
@@ -39,12 +38,12 @@ export default function FetchWeather() {
                 <div className="top">
                     <div>
                         <p className="city">{data.city}</p>
-                        <p className="weather-name">{data.name}</p> 
+                        <p className="weather-name">{data.name}</p>
                     </div>
                 </div>
-                {data.main ?
+                {data.main ? (
                     <div className="bottom">
-                    <ion-icon name="thermometer-outline"></ion-icon>
+                        <ion-icon name="thermometer-outline"></ion-icon>
                         <p className="temperature">{data.main.temp.toFixed()}°C </p>
                         <div className="details">
                             <div className="parameter-row" id="details">
@@ -66,11 +65,13 @@ export default function FetchWeather() {
                             </div>
                             <div className="parameter-row">
                                 <span className="parameter-label">Pressure</span>
-                                <span className="parameter-value">{data.main.pressure} hPa</span>
+                                <span className="parameter-value">
+                                    {data.main.pressure} hPa
+                                </span>
                             </div>
                         </div>
                     </div>
-                    : null}
+                ) : null}
             </div>
         </div>
     );
