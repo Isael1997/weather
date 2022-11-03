@@ -1,0 +1,46 @@
+{
+    "coord": {
+        "lon": -69.2972,
+        "lat": 18.4616
+    },
+    "weather": [
+        {
+            "id": 801,
+            "main": "Clouds",
+            "description": "few clouds",
+            "icon": "02n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 23.07,
+        "feels_like": 23.86,
+        "temp_min": 23.07,
+        "temp_max": 23.07,
+        "pressure": 1015,
+        "humidity": 93,
+        "sea_level": 1015,
+        "grnd_level": 1014
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 3.57,
+        "deg": 31,
+        "gust": 5.56
+    },
+    "clouds": {
+        "all": 18
+    },
+    "dt": 1667372181,
+    "sys": {
+        "type": 1,
+        "id": 7077,
+        "country": "DO",
+        "sunrise": 1667385438,
+        "sunset": 1667426647
+    },
+    "timezone": -14400,
+    "id": 3493032,
+    "name": "San Pedro de Macorís",
+    "cod": 200
+}
